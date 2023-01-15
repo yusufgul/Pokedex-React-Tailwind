@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.type-rotate {
+  @apply max-[1534px]:flex-col max-[1534px]:mt-[33px] max-[1534px]:absolute
+  max-[1534px]:left-0 max-[1534px]:bg-[#F7E5E5] rounded-md hidden;
+}
+
+.navigation-buttons {
+  @apply mx-4 bg-[#f5f3f5] font-bold w-24 rounded-xl active:translate-y-[2px] 
+  active:shadow-[inset_0_0_8px_rgba(0,0,0,0.3)];
+}
+
+.retro-buttons {
+  @apply border border-y-[1px] border-x-0 rounded-md p-[0.15rem] active:translate-y-[3px] text-xs 
+   text-[#f8f8f8] max-[1534px]:m-[2px] min-[1535px]:mr-[8px] active:shadow-[inset_0_0_8px_rgba(0,0,0,0.3)];
+}
+
+.check-box {
+  @apply w-[25px] h-[14px] bg-gray-200  rounded-full dark:bg-gray-700  
+ after:content-[''] after:absolute after:top-[7px] after:left-[2px] after:bg-white 
+ after:border-gray-300 after:border after:rounded-full after:h-[10px] after:w-[10px] after:transition-all 
+ hidden;
+}
+
+body {
+  @apply bg-[#eef0ff] h-full w-full m-0;
+  font-variant: small-caps;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(179, 177, 177);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: rgb(68, 68, 68);
+  border-radius: 10px;
+}

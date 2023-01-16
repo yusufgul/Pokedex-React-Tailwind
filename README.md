@@ -66,7 +66,7 @@ also because it made me feel nostalgic. Working on this project was a fun experi
 
 ### Screenshots
 
-<div style="display: flex; align-items: center; justify-content: center;">
+<div style="display: flex;">
  <img src="https://drive.google.com/uc?export=view&id=1sLK6SQTdNCL7lifn0k3JLbwG_49plSLg" width=25% height=25%>
  <img src="https://drive.google.com/uc?export=view&id=1qydOMlqQPhk97-pHpvgeUW6adFySQ2W6" width=25% height=25%>
  <img src="https://drive.google.com/uc?export=view&id=1Y8FBr5eZr7redtQ1k06EwhDce9SDP6vu" width=25% height=25%>

@@ -17,7 +17,7 @@ I was looking for an idea to make a frontend project and then I came across [Pok
 It is a full RESTful API linked to an extensive database detailing everything about the Pokémon main game series.
 I decided to do this project because of the extensive data it provided and
 also because it made me feel nostalgic. Working on this project was a fun experience.</br>
-![Pikachu](https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_025_m.png)   ![Bulbasaur](https://archives.bulbagarden.net/media/upload/7/76/Spr_5b_001.png)  ![Charmander](https://archives.bulbagarden.net/media/upload/0/0a/Spr_5b_004.png)  ![Squartel](https://archives.bulbagarden.net/media/upload/5/59/Spr_5b_007.png) 
+![Pikachu](https://archives.bulbagarden.net/media/upload/b/b2/Spr_5b_025_m.png)   ![Bulbasaur](https://archives.bulbagarden.net/media/upload/7/76/Spr_5b_001.png)  ![Charmander](https://archives.bulbagarden.net/media/upload/0/0a/Spr_5b_004.png)  ![Squartel](https://archives.bulbagarden.net/media/upload/5/59/Spr_5b_007.png) ![Pidgeotto](https://archives.bulbagarden.net/media/upload/8/86/Spr_5b_017.png) ![Butterfree](https://archives.bulbagarden.net/media/upload/7/7c/Spr_5b_012_m.png) 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </br>
 

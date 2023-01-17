@@ -83,7 +83,7 @@ const PokemonDetailCard = () => {
       <Backdrop />
       {isLoading.detailedData ? (
         // If still loading, show loading indicator instead else show the card
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-30">
+        <div className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-30">
           <i className="fa fa-spinner fa-pulse fa-10x fa-fw text-white"></i>
         </div>
       ) : (
@@ -91,8 +91,8 @@ const PokemonDetailCard = () => {
         // Main border of detailed card
         ////////////////////////////////////
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col
-w-[350px] bg-white rounded-xl z-[30] border-[#b259ff] border-solid border-[4px] max-[420px]:scale-[0.9]"
+          className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-[350px]
+ bg-white rounded-xl z-[30] border-[#b259ff] border-solid border-[4px] scale "
         >
           {/* //////////////////////////////////////////////////////////////////////////////// */}
           {/* First section of detailed card that contains id, name, genera and closing button */}

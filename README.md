@@ -4,7 +4,7 @@ According to the Wikipedia,
 >The Pokédex is an electronic device created and designed to catalog and provide information regarding the various species of Pokémon featured in the Pokémon video game, anime and manga series.</br>
 >
 As for this project, it is a React project that fetches data from the [PokeAPI](https://pokeapi.co/) 
-and displays Pokemons on the screen. Tailwinds CSS framework used for styling.
+and displays Pokemons on the screen. Tailwind CSS framework used for styling.
 It includes several notable features such as pagination, filtering, 
 routing, authentication and Redux.
 
@@ -22,7 +22,7 @@ also because it made me feel nostalgic. Working on this project was a fun experi
 </br>
 
 ## Features </br>
-- Tailwinds:
+- Tailwind:
   - As for the CSS framework, Tailwind is used.
 - Authentication:
   - Firebase Authentication is used to handle authentications.
@@ -58,7 +58,7 @@ also because it made me feel nostalgic. Working on this project was a fun experi
 
 ### Installation
 
-    Clone the repository: git clone https://github.com/yusufgul/Pokedex-React-Tailwinds.git
+    Clone the repository: git clone https://github.com/yusufgul/Pokedex-React-Tailwind.git
     Add your firebase info to the FirebaseConfig.js file inside /src/components/firebase folder
     Install the dependencies: npm install
     Run the development server: npm start

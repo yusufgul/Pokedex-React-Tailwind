@@ -24,6 +24,46 @@
  hidden;
 }
 
+/* max-[420px]:scale-[0.9] can be used for width but there is no tailwinds version for height */
+/* So, I had to use css */
+@media screen and (max-height: 750px) {
+  .scale {
+    --tw-scale-x: 0.9;
+    --tw-scale-y: 0.9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+@media screen and (max-height: 650px) {
+  .scale {
+    --tw-scale-x: 0.8;
+    --tw-scale-y: 0.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .scale {
+    --tw-scale-x: 0.9;
+    --tw-scale-y: 0.9;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+@media screen and (max-width: 320px) {
+  .scale {
+    --tw-scale-x: 0.8;
+    --tw-scale-y: 0.8;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
 body {
   @apply bg-[#eef0ff] h-full w-full m-0;
   font-variant: small-caps;
